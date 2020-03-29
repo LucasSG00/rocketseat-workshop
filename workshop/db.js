@@ -49,6 +49,8 @@ db.serialize(function() {
     //   console.log(rows)
     // })
 
+    //O fechamento de academias e o isolamento das pessoas para evitar a transmissão do novo coronavírus impuseram desafios para a manutenção da atividade física. Até por isso, a Organização Mundial da Saúde (OMS) criou um manual com treinos que podem ser realizados dentro de casa.
+
 
 //     //deletar um dado da tabela
 //    db.run(`DELETE FROM ideas WHERE title=?`, ["Curso de Programação"], function(err) {
@@ -56,8 +58,6 @@ db.serialize(function() {
 
 //        console.log("DELETEI", this)
 //    })
-
-
 })
 
 module.exports = db
