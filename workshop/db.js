@@ -53,7 +53,7 @@ db.serialize(function() {
 
 
 //     //deletar um dado da tabela
-//    db.run(`DELETE FROM ideas WHERE title=?`, ["Curso de Programação"], function(err) {
+//    db.run(`DELETE FROM ideas WHERE title=?`, ["teste"], function(err) {
 //        if (err) return console.log(err)
 
 //        console.log("DELETEI", this)
